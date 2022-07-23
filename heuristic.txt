@@ -8,4 +8,13 @@
         but in the worst case we can even find a path which may be long but it can complete the demand.
         * One contstraint on path length would be the time taken to perform entanglement swap on this path should not exceed the ET-ST interval
         
-    * 
+    * Non conflicting:
+        * Demands having non overlapping paths
+        * Demand having overlapping paths but resources are available
+
+* Scheduling variants and how can they be applied to Quantum Networks
+    Type the algorithm in overleaf (by 22)
+    Implementation (by 23)
+
+
+
