@@ -1,0 +1,11 @@
+* Start and End times are known
+    - It is assumed that the demand would require resources for this entire interval
+    
+    Algorithm:
+    * Sort the demands in ascending order of demand end times (earliest deadline first)
+    * Keep picking demands if they are not conflicting 
+        * This phase in itself would perform path finding, Ideally we would begin with picking shortest path 
+        but in the worst case we can even find a path which may be long but it can complete the demand.
+        * One contstraint on path length would be the time taken to perform entanglement swap on this path should not exceed the ET-ST interval
+        
+    * 
